@@ -61,6 +61,10 @@ class SitesTable extends Table
             ->requirePresence('is_active', 'create')
             ->notEmpty('is_active');
 
+        $validator
+            ->requirePresence('location', 'create')
+            ->notEmpty('location');
+
         return $validator;
     }
 }

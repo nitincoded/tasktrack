@@ -11,6 +11,7 @@ use Cake\ORM\Entity;
  * @property bool $is_active
  * @property \Cake\I18n\Time $created
  * @property \Cake\I18n\Time $modified
+ * @property string $location
  * @property \App\Model\Entity\Project[] $projects
  * @property \App\Model\Entity\Ticket[] $tickets
  */

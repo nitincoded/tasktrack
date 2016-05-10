@@ -27,7 +27,9 @@ class SitesTableTest extends TestCase
         'app.sites',
         'app.projects',
         'app.milestones',
-        'app.tickets'
+        'app.tickets',
+        'app.types',
+        'app.statuses'
     ];
 
     /**

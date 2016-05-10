@@ -19,6 +19,10 @@
             <td><?= h($site->name) ?></td>
         </tr>
         <tr>
+            <th><?= __('Location') ?></th>
+            <td><?= h($site->location) ?></td>
+        </tr>
+        <tr>
             <th><?= __('Id') ?></th>
             <td><?= $this->Number->format($site->id) ?></td>
         </tr>

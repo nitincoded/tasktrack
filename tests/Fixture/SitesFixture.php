@@ -22,6 +22,7 @@ class SitesFixture extends TestFixture
         'is_active' => ['type' => 'boolean', 'length' => null, 'null' => false, 'default' => null, 'comment' => '', 'precision' => null],
         'created' => ['type' => 'datetime', 'length' => null, 'null' => false, 'default' => null, 'comment' => '', 'precision' => null],
         'modified' => ['type' => 'datetime', 'length' => null, 'null' => false, 'default' => null, 'comment' => '', 'precision' => null],
+        'location' => ['type' => 'string', 'length' => 255, 'null' => false, 'default' => null, 'comment' => '', 'precision' => null, 'fixed' => null],
         '_constraints' => [
             'primary' => ['type' => 'primary', 'columns' => ['id'], 'length' => []],
         ],
@@ -42,8 +43,9 @@ class SitesFixture extends TestFixture
             'id' => 1,
             'name' => 'Lorem ipsum dolor sit amet',
             'is_active' => 1,
-            'created' => '2016-05-02 10:21:54',
-            'modified' => '2016-05-02 10:21:54'
+            'created' => '2016-05-10 05:35:18',
+            'modified' => '2016-05-10 05:35:18',
+            'location' => 'Lorem ipsum dolor sit amet'
         ],
     ];
 }

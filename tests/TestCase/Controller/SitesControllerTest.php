@@ -19,7 +19,9 @@ class SitesControllerTest extends IntegrationTestCase
         'app.sites',
         'app.projects',
         'app.milestones',
-        'app.tickets'
+        'app.tickets',
+        'app.types',
+        'app.statuses'
     ];
 
     /**

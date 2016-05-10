@@ -15,6 +15,7 @@
         <?php
             echo $this->Form->input('name');
             echo $this->Form->input('is_active');
+            echo $this->Form->input('location');
         ?>
     </fieldset>
     <?= $this->Form->button(__('Submit')) ?>
